@@ -1,0 +1,10 @@
+﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <UserSecretsId>d7b1a3d9-d187-4bbb-8b90-7c34057d6a8b</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0-beta1" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.0" />
+  </ItemGroup>
+</Project>

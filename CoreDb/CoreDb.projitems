@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>38c40453-132f-41f0-9922-55d64402b0bd</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CoreDb</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ConString\Universal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConString\UniversalFirebird.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConString\UniversalGeneric.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConString\UniversalMsSql.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConString\UniversalMySQL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConString\UniversalNpgSql.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConString\UniversalOracle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CsvParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DalConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LinqHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\AssemblyQualifiedName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EngineTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\Connection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\Constructor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\ConvertResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\DataSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\DataTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\ExecuteReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\ExecuteScalar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\ExecuteStoredProcedure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\ExecuteStoredProcedureReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\EmbeddedResources.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\Factory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\GetList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\Log.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\Parameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\ODBC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\GetHashSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\QuoteObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\xxx\ReadDAL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\TypeMapping.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScriptSplitter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SharedLibrary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)testme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadDAL\SerializeDataTableAsAssociativeJsonArray.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WriteDAL\Builder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WriteDAL\Contructor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WriteDAL\WriteDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)ReadDAL\xxx\" />
+  </ItemGroup>
+</Project>
